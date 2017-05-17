@@ -40,6 +40,11 @@ http {
 			internal;	#should make this a 404
 		}				
 		
+		location / {
+		
+			root /app;
+					
+		}
 		#maybe this is messing up cloudflare.
 		#location / {
 		#
